@@ -4,7 +4,7 @@ import re
 import json
 from pprint import pprint
 
-#cat filename | xargs -P 1 -I % sh -c 'shodan cli scan %'
+#cat filename | xargs -P 1 -I % sh -c 'shodan cli scan %' : To scan multiple ip address
 
 # result = open(input('filename: '),'r')
 result = open("shodanresult", 'r')
