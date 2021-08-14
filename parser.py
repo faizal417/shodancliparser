@@ -60,7 +60,7 @@ for i, block in enumerate(res_blocks):
     # dic = {ip_address[i]: h[i] for i in range(len(ip_address))}
     # print (dic)
 
-pprint(h)
+print(h)
 # print(len(h))
 # ports= re.compile(r'Ports:(.*)')
 # port = (ports.findall(block))
